@@ -1,7 +1,8 @@
 ---
 name: Landsat 8 Tutorial
 description: >-
-  Notebook adapted from the pangeo-tutorial notebook on Landsat 8 for Pangeo Gallery.
+  Notebook adapted from the pangeo-tutorial notebook on Landsat 8 
+  for Pangeo Gallery.
 gallery_repository: pangeo-gallery/pangeo-gallery
 binder_url: "https://aws-uswest2-binder.pangeo.io/"
 binder_repo: pangeo-data/landsat-8-tutorial-gallery
