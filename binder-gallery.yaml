@@ -5,5 +5,5 @@ description: >-
 gallery_repository: pangeo-gallery/pangeo-gallery
 binder_url: "https://aws-uswest2-binder.pangeo.io/"
 binder_repo: pangeo-data/landsat-8-tutorial-gallery
-binder_ref: binder-env
+binder_ref: master
 binderbot_target_branch: binderbot-built
