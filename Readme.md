@@ -1,20 +1,21 @@
-# Pangeo Gallery Template
+# Pangeo Landsat8 Gallery Example
 
-This repository stores an example gallery repo for the Pangeo Gallery.
-It is configured to automatically build itself using
-[binderbot](https://github.com/pangeo-gallery/binderbot).
-It is linked, via a git submodule, the the
-[gallery website repo](https://github.com/pangeo-gallery/pangeo-gallery).
-Whenever the notebooks are updated in this, repository
-dispatch is used to trigger a gallery rebuild. This keeps
-[gallery.pangeo.io](http://gallery.pangeo.io) always in sync with this repo.
+This repository contains a definition of the computing environment and notebook corresponding to this gallery example:
+http://gallery.pangeo.io/repos/pangeo-data/landsat-8-tutorial-gallery/landsat8.html 
 
-The repo contains the following elements:
+## Overview:
 
-- A set of jupyter notebooks, numbered in the order that we want them to
-  appear on the gallery website.
-- A configuration file, `binder-gallery.yaml`, which provides important
-  configuration parameters (see [pangeo gallery documentation](http://gallery.pangeo.io)).
-- A thumbnail image (`thumbnail.png`), a 200 x 200 px image which represents
-  the gallery content.
-- Github workflows, which make the magic happen! (Don't touch these.)
+Questions:
+
+1. How can I find, anaylize, and visualize a large set of Landsat-8 imagery on AWS?
+2. How do I use xarray and dask together to efficiently work with stacks of raster images?
+
+We will examine raster images from the Landsat-8 instrument. The Landsat program is the longest-running civilian satellite imagery program, with the first satellite launched in 1972 by the US Geological Survey. Landsat 8 is the latest satellite in this program, and was launched in 2013. Landsat observations are processed into “scenes”, each of which is approximately 183 km x 170 km, with a spatial resolution of 30 meters and a temporal resolution of 16 days. The duration of the landsat program makes it an attractive source of medium-scale imagery for land surface change analyses.
+
+Python packages highlighted:
+- [satsearch](https://github.com/sat-utils/sat-search)
+- [intake-stac](https://github.com/intake/intake-stac)
+- [geopandas](https://github.com/geopandas/geopandas)
+- [xarray](https://github.com/pydata/xarray)
+- [dask](https://github.com/dask/dask)
+- [holoviz](https://holoviz.org)
