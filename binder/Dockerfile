@@ -1,2 +1,2 @@
 FROM pangeo/pangeo-notebook:2020.07.26
-RUN conda install -n notebook -y -c conda-forge dask-gateway==0.8.0 && conda clean -afy
+RUN ${NB_PYTHON_PREFIX}/bin/pip install dask-gateway==0.8.0 --no-cache-dir
