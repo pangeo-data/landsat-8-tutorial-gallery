@@ -4,6 +4,6 @@ description: >-
   Use Pangeo platform to efficiently analyze a stack of Landsat8 imagery on AWS
 gallery_repository: pangeo-gallery/pangeo-gallery
 binder_url: "https://aws-uswest2-binder.pangeo.io"
-binder_repo: pangeo-gallery/default-binder
-binder_ref: 2020.10.10
+binder_repo: pangeo-data/landsat-8-tutorial-gallery
+binder_ref: master
 binderbot_target_branch: binderbot-built
